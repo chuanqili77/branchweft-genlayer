@@ -1,0 +1,17 @@
+{
+  "network": {
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "address": "0x512F45FD4FE44D2A4a1D9DacEC96B18c5E2EcF10",
+  "owner": "0x1A6c88af1808B136eC72063C9413E65d165515C6",
+  "sourceSha256": "8d58de464930ce1f3fcdb06812b80ed6018fbe61478f63e95eac05118cd7ab0e",
+  "verifiedDate": "2026-10-29",
+  "terminalState": "PUBLISHED",
+  "transactions": {
+    "deploy": "0x9f1dff62789e9f757e77951cfbd4ef924594fa7ee7b8f6f490f567f57d4b6f43",
+    "stage": "0x5b32b392aaa50e567a15c78ef1e76f9bd93b2244aff752f273a1e87112aec79e",
+    "merge": "0xf9ccecbd0cf0da94612f3bbc1ac08b599023fd2fa234b254a86ce36ee1b6bf72",
+    "publish": "0x0bf20a5d2c062fd2f6de6d117feba37c6ed69950dbafbe8bb30cdf96896fdefc"
+  }
+}

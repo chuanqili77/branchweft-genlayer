@@ -1,0 +1,81 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "get_document": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "doc_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "merge": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "doc_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "publish": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "doc_id",
+          "string"
+        ],
+        [
+          "result_digest",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "stage": {
+      "params": [
+        [
+          "doc_id",
+          "string"
+        ],
+        [
+          "payload",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
