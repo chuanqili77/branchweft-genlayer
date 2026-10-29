@@ -19,6 +19,8 @@ Exactly two EQ labels violate equivalence transitivity and cannot produce an aut
 
 ## State and API
 
+Text inputs are trimmed at their outer boundaries on ingestion. Source preservation refers to these stored normalized strings; interior text is unchanged.
+
 `STAGED → MERGED → PUBLISHED`, or `STAGED → REVIEW | CONFLICT`. Caller and document ID define the immutable namespace. Only the owner can merge or publish. Publish requires the exact result digest and recomputes selection before marking the result published. The digest binds protocol, owner, ID, all snapshots, assessment and result. Publication preserves the original MERGED result inside the outer PUBLISHED record.
 
 | Method | Arguments | Result |
